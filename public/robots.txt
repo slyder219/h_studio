@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://slyder219.github.io/h_studio/sitemap.xml

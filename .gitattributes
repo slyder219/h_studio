@@ -1,2 +1,11 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Keep repository and working-tree text files consistent across platforms.
+* text=auto eol=lf
+
+# Preserve binary files exactly.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.woff binary
+*.woff2 binary

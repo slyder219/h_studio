@@ -129,8 +129,8 @@ function App() {
   const [menu, setMenu] = useState(false);
   const hero = useRef(null);
   const { scrollYProgress } = useScroll({ target: hero, offset: ["start start", "end start"] });
-  const wordX = useTransform(scrollYProgress, [0, 1], ["0%", "-20%"]);
-  const wordX2 = useTransform(scrollYProgress, [0, 1], ["-8%", "12%"]);
+  const wordX = useTransform(scrollYProgress, [0, 1], ["0%", "-8%"]);
+  const wordX2 = useTransform(scrollYProgress, [0, 1], ["0%", "8%"]);
   const blockScale = useTransform(scrollYProgress, [0, .8], [1, .58]);
   const blockRotate = useTransform(scrollYProgress, [0, .8], [0, 7]);
 
